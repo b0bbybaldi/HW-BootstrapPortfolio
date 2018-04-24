@@ -72,7 +72,9 @@ footer{
 	border-top-style: solid;
 	border-top-width: thin;
 	border-top-color: lightgray;
-	padding:1rem;
+	padding:1rem 0;
+	clear:both;
+	height:50px;
 }
 
 img {
