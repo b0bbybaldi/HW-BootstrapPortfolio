@@ -1,50 +1,25 @@
 body {
-	background-color: black;
 	size: 960px;
 }
 
 header{
-	background-color: lightgray;
 	font-weight: bold;
 	font-family: sans-serif;
 	position: relative;
 	height: 80px;
 }
 
-nav {
-	font-size: 20px;
-	text-align: right;
-	padding-left: 0;
-	padding-bottom: 0;
-	float:right;
-	margin-top: 30px;
-	margin-right: 30px;
-}
-
-.name {
-	font-size: 50px;
-	color: white;
-	float: left;
-	margin-left: 50px;
-	height:60px;
-	background-color:gray;
-	margin-top:0px;
-	padding: 10px;
-}
-
 .section {
-	size: 960px ;
+	size: 940px ;
 }
 
 .container {
-	background-color: lightgray;
 	width: 60%;
 	margin: auto;
 	height: 500px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-
 
 h2 {
 	font-size: 30px;
@@ -68,7 +43,7 @@ h4 {
 	color: white;
 	font-family: sans-serif;
 	font-weight: bold;
-	background-color: gray;
+	background-color: lightgray;
 	text-align: center;
 	padding: 10px;
 	width: 100px;
@@ -81,90 +56,41 @@ p {
 	font-family: sans-serif;
 	margin-right: 10px;
 	text-align: justify;
-
 }
 
 footer{
-	background-color: lightgray;
+	position: fixed;
+	width: 100%;
+	background-color: white;
 	font-weight: bold;
 	font-family: sans-serif;
-	padding: 30px;
 	text-align: center;
+	color: gray;
+	margin-bottom: 0;
 }
 
 img {
 	float:left;
 	padding-right: 5px;
 	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
 }
 
-.portpics {
-	float: middle;
-	padding-right: 5px;
-	padding-left: 30px;
-	padding-top: 20px;
-}
-
-.button {
-	position: relative;
+.card {
+	float: left;
 	text-align: center;
-	color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
 }
 
-.banner1 {
-	position: absolute;
-	top: 90%;
-    left: 27%;
-    color: white;
-    background-color: gray;
-	padding: 10px;
-	text-align: center;
-}
-
-.banner2 {
-	position: absolute;
-	top: 90%;
-    left: 45%;
-    color: white;
-    background-color: gray;
-	padding: 10px;
-	text-align: center;
-}
-
-.banner3 {
-	position: absolute;
-	top: 90%;
-    left: 65%;
-    color: white;
-    background-color: gray;
-	padding: 10px;
-	text-align: center;
-}
-
-.banner4 {
-	position: absolute;
-	top: 143%;
-    left: 27%;
-    color: white;
-    background-color: gray;
-	padding: 10px;
-	text-align: center;
-}
-
-.banner5 {
-	position: absolute;
-	top: 143%;
-    left: 45%;
-    color: white;
-    background-color: gray;
-	padding: 10px;
-	text-align: center;
-}
 
 .ninput{
 	color: white;
 	background-color: white;
-	border: 10px;
+	border-width: thin;
+	border-style: solid;
 	height: 30px;
 	width: 95%;
 	margin:auto;
@@ -176,7 +102,8 @@ img {
 .einput{
 	color: white;
 	background-color: white;
-	border: 10px;
+	border-width: thin;
+	border-style: solid;
 	height: 30px;
 	width: 95%;
 	margin:auto;
@@ -188,7 +115,8 @@ img {
 .minput{
 	color: white;
 	background-color: white;
-	border: 10px;
+	border-width: thin;
+	border-style: solid;
 	height: 100px;
 	width: 95%;
 	margin:auto;

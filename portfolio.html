@@ -6,27 +6,24 @@
 		<title>Roberto's Portfolio</title>
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
-		 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	</head>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Roberto Baldizon</a>
-      <nav>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<header id="masthead">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">Roberto Baldizon</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav">
+	      <a class="nav-item nav-link active" href="index.html">About Me<span class="sr-only">(current)</span></a>
+	      <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+	      <a class="nav-item nav-link" href="contact.html">Contact</a>
+	    </div>
+	  </div>
+	</nav>
+</header>
 
 	<body>
 		<div class="section">
@@ -36,52 +33,45 @@
 				</h2>
 				<hr>
 
-				<div class="portpics">
+				<div class="card" style="width: 13rem">
+  					<img class="card-img-top" src="Hangman.jpg" alt="Hangman Game Picture">
+  					<div class="card-body">
+    					<p class="card-text">Hangman</p>
+  					</div>
+				</div>
 
-					<div class="button">
-						<img src="Hangman.jpg" alt="Hangman Game Picture" height=175px>
-					</div>
+				<div class="card" style="width: 13rem">
+  					<img class="card-img-top" src="psu.jpg" alt="Penn State Info Widget Picture">
+  					<div class="card-body">
+    					<p class="card-text">PSU Info Widget</p>
+  					</div>
+				</div>
 
-					<div class="banner1">
-						Hangman
-					</div>
+				<div class="card" style="width: 13rem">
+  					<img class="card-img-top" src="RPG.jpg" alt="RPG Game Picture">
+  					<div class="card-body">
+    					<p class="card-text">RPG Game</p>
+  					</div>
+				</div>
 
-					<div class="button">
-						<img src="psu.jpg" alt="Penn State Info Widget Picture" height=175px>
-					</div>
+				<div class="card" style="width: 13rem">
+  					<img class="card-img-top" src="RPS.jpg" alt="Rock Paper Scissors Game Picture">
+  					<div class="card-body">
+    					<p class="card-text">Rock Paper Scissors</p>
+  					</div>
+				</div>
 
-					<div class="banner2">
-						Penn State's Info Widget
-					</div>
-
-					<div class="button">
-						<img src="RPG.jpg" alt="RPG Game Picture" height=175px>
-					</div>
-
-					<div class="banner3">
-						RPG Game
-					</div>
-
-					<div class="button">
-						<img src="RPS.jpg" alt="Rock Paper Scissors Game Picture" height=175px>
-					</div>
-
-					<div class="banner4">
-					   	Rock Paper Scissors
-					</div>
-
-					<div class="button">
-					<img src="trivia.jpg" alt="Trivia Game Picture" height=175px>
-					</div>
-					<div class="banner5">
-						Trivia Game
-					</div>
+				<div class="card" style="width: 13rem">
+  					<img class="card-img-top" src="trivia.jpg" alt="Trivia Game Picture">
+  					<div class="card-body">
+    					<p class="card-text">Trivia Game</p>
+  					</div>
 				</div>
 			</div>
 		</div>
-		<footer>
-			<hr>
-			Copyright
-		</footer>
 	</body>
+	<footer>
+		<hr>
+		Copyright
+	</footer>
 </html>
